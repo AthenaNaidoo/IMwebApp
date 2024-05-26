@@ -1,0 +1,53 @@
+.header{
+    background-color: #cccccc;
+    color: black;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    transition: background-colour 0.3s ease;
+    height: 5rem;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.nav-logo{
+    font-size: 2rem;
+    justify-content: flex-start;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-logo :hover{
+  color: #ffffff;
+  box-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff;
+}
+
+.nav-menu{
+    display: flex;
+    position: sticky;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    gap: 1rem;
+}
+
+.nav-menu a{
+    color: black;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.nav-menu a:hover{
+    color: #ffffff;
+}
+
+.header.scrolled{
+    background-color: #ababab;
+    height: 2.5rem;
+}

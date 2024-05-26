@@ -1,0 +1,46 @@
+.Main{
+    color: white;
+    background-color: black;
+    background-image: url('');
+
+
+}
+
+.Main-title{
+ font-style: bold;
+ font-size: large;
+}
+.Main-des{
+    color: white;
+}
+
+.Main-about{
+    color: white;
+}
+
+.Main-title h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    animation: typewriter 3s steps(40) infinite, pause 1s infinite;
+  }
+  
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes pause {
+    0%, 100% {
+      width: 100%;
+    }
+    50% {
+      width: 100%; /* Pause at 50% of the animation */
+    }
+  }
+  
