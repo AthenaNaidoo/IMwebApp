@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/IMwebApp/static/css/main.ac18dd63.css",
+    "main.js": "/IMwebApp/static/js/main.fc41214b.js",
+    "static/js/453.f0f2003d.chunk.js": "/IMwebApp/static/js/453.f0f2003d.chunk.js",
+    "static/media/MainWireframe.png": "/IMwebApp/static/media/MainWireframe.e97795981ef5ec857c2e.png",
+    "static/media/HexBig.png": "/IMwebApp/static/media/HexBig.c6fbf771844549f62874.png",
+    "static/media/DesignWireI.png": "/IMwebApp/static/media/DesignWireI.8ba63903b31b9c1e3636.png",
+    "static/media/DesignWireR.png": "/IMwebApp/static/media/DesignWireR.ac845d163c4394d9513b.png",
+    "static/media/BlogWire.png": "/IMwebApp/static/media/BlogWire.3879e2eaa99bcfdf8507.png",
+    "static/media/PalletHex.png": "/IMwebApp/static/media/PalletHex.0e3a1acac451d09ff654.png",
+    "static/media/ArtWireP.png": "/IMwebApp/static/media/ArtWireP.65f9da40b5a61703f7db.png",
+    "static/media/ArtWire.png": "/IMwebApp/static/media/ArtWire.e8785765e96bd166dfd7.png",
+    "static/media/Inspo2.jpg": "/IMwebApp/static/media/Inspo2.a7b14e45c3e48cd606df.jpg",
+    "static/media/Inspo.jpg": "/IMwebApp/static/media/Inspo.7065e896469da6af7e48.jpg",
+    "static/media/Inspo1.jpg": "/IMwebApp/static/media/Inspo1.0dd46b349313bd863b26.jpg",
+    "index.html": "/IMwebApp/index.html",
+    "main.ac18dd63.css.map": "/IMwebApp/static/css/main.ac18dd63.css.map",
+    "main.fc41214b.js.map": "/IMwebApp/static/js/main.fc41214b.js.map",
+    "453.f0f2003d.chunk.js.map": "/IMwebApp/static/js/453.f0f2003d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac18dd63.css",
+    "static/js/main.fc41214b.js"
+  ]
+}
