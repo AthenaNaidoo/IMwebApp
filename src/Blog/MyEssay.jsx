@@ -1,8 +1,10 @@
-
+import './Writing.css'
+import screenshot from '../assests/Screenshot 2024-06-04 194112.png'
 
 export function MyEssay() {
     return (
-        <div>
+        <div className='Blog-Entry'>
+        <div className='Writting'>
             <h1>
             Critical Analysis of Net Art
             </h1>
@@ -14,7 +16,7 @@ export function MyEssay() {
             </p>
             <p>
             Cameron’s World initially evokes a sense of wonder and nostalgia for what the internet used to be like; fun, colourful, full of possibilities and experimentation. It embodies the idea or sense of “nostalgia for a version of the world thought to be a better place”(Small, 2018), this sentiment is one shared by many on today's internet(Williams, 2015). A longing for a simpler time when the web wasn’t so saturated with ads and consumerism. The work expresses a sense of “dissatisfaction with contemporary society’s modes of cultural production” (Magagnoli, 2016, pg4). It presents a romanticised representation of what the old internet was like in the form of a ruin (Magagnoli, 2016). The work is a brief glimpse into the internet's past using the medium of the internet itself, getting as close to the original representation as possible without compromising on core features or principles of net art. The work is distributed online in the form of an interactive webpage that anyone can view easily. The page itself even tries to aesthetically emulate the design practices of the particular genre of webpage and spaces that it is making references to. Each element is grouped into specific themes similar to home GeoCities was organised based on topics and interests and each theme consists of a chaotic collection of relevant collected media, this chaotic arrangement of elements is also reminiscent of how people’s personal websites used to look like which can be seen when the viewer clicks on elements that take them to archived pages for instance take this page:
-            <img></img>
+            <img src={screenshot} alt="screenshot" />
             Which contains a bunch of chaotic elements such as a line of dancing Elmo gifs a repeating patterned rainbow background and bright colourful text that is almost unreadable. 
 
             </p>
@@ -39,8 +41,11 @@ export function MyEssay() {
 
             </p>
             <p>
-            References:
-Askin, C. (no date) Cameron’s World. Available at: https://www.cameronsworld.net/.
+            
+            <details>
+                <summary>References:</summary>
+                <p>
+                Askin, C. (no date) Cameron’s World. Available at: https://www.cameronsworld.net/.
 Fusion Staff (2015) Cameron’s world is a virtual romp through weird, wonderful abandoned geocities sites, splinter. Available at: https://splinternews.com/camerons-world-is-a-virtual-romp-through-weird-wonderf-1793850074.
 Magagnoli, P., 2016. The Internet as Ruin: Nostalgia for the Early World Wide Web in Contemporary Art. Transformations, 28.
 Net art | artsy (no date) artsy. Available at: https://www.artsy.net/gene/net-art.
@@ -49,8 +54,11 @@ Ricci, B. (2024) Net art and how the internet has created a new medium, Artland 
 Small, Z. (2018) A net artist on why the cloud is a bad metaphor for the internet, Hyperallergic. Available at: https://hyperallergic.com/460796/a-net-artist-on-why-the-cloud-is-a-bad-metaphor-for-the-internet/.
 What is net art? (no date) Net.Specific. Available at: https://netspecific.net/en/netspecific/what-is-net-art.
 Williams, O. (2015) The modern internet sucks: Bring back geocities, TNW | Opinion. Available at: https://thenextweb.com/news/the-modern-internet-sucks-bring-back-geocities.
-インターネットの化石が出土！ 謎のサイトが伝える愛のメッセージとは (2023) KAI. Available at: https://kai-you.net/article/20040. 
+インターネットの化石が出土！ 謎のサイトが伝える愛のメッセージとは (2023) KAI. Available at: https://kai-you.net/article/20040.
+                </p>
+                 </details>
             </p>
+        </div>
         </div>
     );
 };

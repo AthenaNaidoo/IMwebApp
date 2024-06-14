@@ -26,19 +26,19 @@ export function Navbar() {
 
     return(
         <header className={`header ${scrolled ? 'scrolled' : ''}`}>
-            <nav className='"nav-container'>
-                <NavLink to="/" className="nav-logo">
+            <nav className='nav-container'>
+                <NavLink to="/IMwebApp" className={`nav-logo ${scrolled ? 'scrolled' : ''}`}>
                 <GiPolarStar className='star' />               
                 </NavLink>
                 <div className='nav-menu'>
 
-                <NavLink to="/design" activeClassName="active">
+                <NavLink to="/design" activeclassname="active">
                     Design
                 </NavLink>
-                <NavLink to="/blog" activeClassName="active">
+                <NavLink to="/blog" activeclassname="active">
                 Blog
                 </NavLink>
-                <NavLink to="/art" activeClassName="active">
+                <NavLink to="/art" activeclassname="active">
                 Art
                 </NavLink>
                 </div>

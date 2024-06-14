@@ -22,33 +22,34 @@ const wireframes = [
     id: 2,
     title: 'Design Page Inspo',
     imageUrl: DesignWireI,
-    description: '',
+    description: 'shows the layout of the design page. This tab shows the inspo and genral information about the overall design inspiration of the website. ',
   },
   {
     id: 3,
     title: 'Design Page Reasoing',
     imageUrl: DesignWireR,
-    description: '',
+    description: 'Shows the layout of the reasoning for the design',
   },
   {
     id: 4,
     title: 'Blog Page',
     imageUrl: BlogWire,
-    description: '',
+    description: 'The blog page will display each blog entry in a block giving the title of the article as well as a short description. The page will be decorated by pixel art I have made and include css animations. Losley inspired by the layout of tumblr posts. ',
   },
   {
     id: 5,
     title: 'Art Page',
     imageUrl: ArtWire,
-    description: '',
+    description: 'This page will be the entry page for all my internet art pieces. It will be decorated with marquees quotes and plants.',
   },
   {
     id: 6,
     title: 'Art Page Planning',
     imageUrl: ArtWireP,
-    description: '',
+    description: 'This page will look similar to the reasoning page, giving a breakdown of the artworks, a timeline of their progress, ispiration and my overall thoughts on the project.',
   },
 ];
+
 
 export function ReasoningTab () {
 
@@ -97,6 +98,20 @@ export function ReasoningTab () {
         />
       ))}
     </div>     
+      </article>
+      <article className='Design-Theory'>
+      <h3>
+        Thoughts and Design Goals
+      </h3>
+      <p>
+      The design gets more stranger an experimental as you venture further into the site. 
+      This wasn’t my original plan but as I carried on working on both the website as a whole 
+      and the Internet Artwork I just started to experiment more with the css styling because of 
+      all the different inspirations I was coming into contact with.  
+      </p>
+      <p>
+
+      </p>
       </article>
       </section>
     );

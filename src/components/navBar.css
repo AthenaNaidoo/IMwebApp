@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Chicago';
+    src: local('Chicago'), url('../assests/ChicagoFLF.ttf') format('truetype');
+  }
+
 .header{
     background-color: #cccccc;
     color: black;
@@ -8,7 +13,9 @@
     width: 100%;
     transition: background-colour 0.3s ease;
     height: 5rem;
+    border-bottom: 2px solid black;
 }
+
 
 .nav{
     display: flex;
@@ -18,32 +25,42 @@
 }
 
 .nav-logo{
-    font-size: 2rem;
-    justify-content: flex-start;
+    position: absolute;
+    left: 2rem;
+    font-size: 3rem;
     color: black;
     text-decoration: none;
+    transition: font-size 0.3s ease;
 }
 
 .nav-logo :hover{
   color: #ffffff;
-  box-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff;
 }
 
 .nav-menu{
     display: flex;
     position: sticky;
     justify-content: flex-end;
+    padding-top: 10px;
     margin-right: 2rem;
     gap: 1rem;
 }
 
 .nav-menu a{
+    font-family: 'Chicago';
     color: black;
+    font-size: 18px;
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
 .nav-menu a:hover{
+    color: #ffffff;
+
+}
+
+.nav-menu a:hover::first-letter {
+    text-decoration: underline;
     color: #ffffff;
 }
 
@@ -51,3 +68,18 @@
     background-color: #ababab;
     height: 2.5rem;
 }
+
+.nav-logo.scrolled {
+    font-size: 35px;
+}
+
+
+/*animations*/
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }to {
+        transform: rotate(360deg);
+    }
+} 

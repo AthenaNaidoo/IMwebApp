@@ -7,7 +7,7 @@ export function InspirationTab () {
     return (
       <section className="Design-Inspo">
         <h2>Inspiration</h2>
-        <p>The inspiration behind this websit in old web nostalgia, nature and old minimalist web design</p>
+        <p>The inspiration behind this website in old web nostalgia, nature and old minimalist web design</p>
         <p>
           These ideas and inspirations sent me down an aesthetic rabbit hole where i discovered the plantwave aesthetic.
         </p>
@@ -21,6 +21,7 @@ export function InspirationTab () {
         <h3>
           Refrence images:
         </h3>
+        
         <p>
           these are the main refrence images that I've used for inspiration
 

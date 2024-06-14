@@ -1,3 +1,4 @@
+import './Design.css';
 import React, { useState } from 'react';
 import { InspirationTab } from './InspoTab';
 import { ReasoningTab } from './ReTab';

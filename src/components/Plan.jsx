@@ -1,28 +1,40 @@
 // Planning and art idea
+import './Art.css';
+import { Link } from 'react-router-dom';
+import FileImg from '../assests/File.png';
 
 export function Planning () {
     return (
-      <div>
+      <div className='Plan-Inspo'>
         <h2>Planning and Inspo</h2>
       <article className="Art-Idea">
       <h3>
           Idea:
         </h3>
         <p>
-          I would like to create glich art images of plants and flowers.
+        My internet art work is in the form of a digital collage of various different elements. 
+        I wanted to create something partially inspired by Cameron’s World the internet artwork I choose for my essay. 
+        The collage was allso inspired by old web design and newer graphic design. I also wanted to use this opportunity to 
+        experiment and create artworks that I’ve wanted to try. This art work uses the web browser as a canvas and the internet as inspiration. 
         </p>
         <p>
-          sticking to the theme of nature and digital interfaces, I want to explore ways of distorting images of nature using javascript and css.
-
-        </p>
-        <p>
-          these glitch art images will either be static or hopefully I can try find a way to make them interactive or incoperate a generative element into them.
+        I’ve added various little art elements, including an ascii fish tank, a card reader, a little synth using the tone.js library 
+        (I’ve been wanting to play around with this library and making instruments and even though the little synth is pretty basic I still think 
+        its a fun addition). I’ve also included various other visual elements that have caught my intrest. If youd like to find out some more indepth 
+        
+        info on the individual art pieces and the reasoning as well as the various inspirations I’d encourage you to take a look at the dev log which you can find here:
+        <Link to="/blog/devblog" className='link'>
+        <img src={FileImg} alt="File img"  />
+      </Link>
         </p>
       </article>
       <article className="Art-Inspiration">
       <h3>
           Inspiration:
         </h3>
+        <p>
+          here's some of the inspiration for my previous Idea which was glitch art. I write about my process trying to make glitch art using javascript and css in the dev blog. I've left these here just for intrest and because I thnk these artworks are reall cool and inspiring.  
+        </p>
         <ul className="Art-Images">
           <li>
             <img />
